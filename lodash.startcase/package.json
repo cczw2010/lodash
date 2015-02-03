@@ -1,7 +1,7 @@
 {
-  "name": "lodash.reescape",
-  "version": "3.0.0",
-  "description": "The modern build of lodash’s `_.reEscape` as a module.",
+  "name": "lodash.startcase",
+  "version": "3.1.0",
+  "description": "The modern build of lodash’s `_.startCase` as a module.",
   "homepage": "https://lodash.com/",
   "icon": "https://lodash.com/icon.svg",
   "license": "MIT",
@@ -15,5 +15,8 @@
     "Mathias Bynens <mathias@qiwi.be> (https://mathiasbynens.be/)"
   ],
   "repository": "lodash/lodash",
-  "scripts": { "test": "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\"" }
+  "scripts": { "test": "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\"" },
+  "dependencies": {
+    "lodash._createcompounder": "^3.0.0"
+  }
 }
